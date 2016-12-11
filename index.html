@@ -59,6 +59,12 @@
     '13.jpg'
   ];
     $('.wp-inner').fullpage();
+    $('*').fullpage({
+    page: '.page',
+    start: 0,
+    duration: 500,
+    drag: false,
+});
     $('.wp-inner').fullpage({
       moveNext: function () {
         console.log(1);
@@ -85,6 +91,7 @@
       $('#go').get(0).src = selectImg;
       $.fn.fullpage.moveNext(2);
     });
+
 
   </script>
 
