@@ -40,7 +40,8 @@ html, body {
 
 .page {
     width: 10rem;
-    height: 90%;
+    /*height: 90%;*/
+    /*height: 100%;*/
     position: relative;
 }
 
