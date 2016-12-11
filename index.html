@@ -59,6 +59,8 @@
     '13.jpg'
   ];
     $('.wp-inner').fullpage();
+    var selectImg = arr[parseInt(Math.random() * arr.length)];
+    $('#go').get(0).src = selectImg;
 
     $('.wp-inner').fullpage({
       moveNext: function () {
@@ -69,18 +71,18 @@
       console.log(122);
       $.fn.fullpage.moveNext(2);
     })
-    $("#i1").focus(function () {
-      var selectImg = arr[parseInt(Math.random() * arr.length)];
-      $('#go').get(0).src = selectImg;
-    });
-    $("#i2").focus(function () {
-      var selectImg = arr[parseInt(Math.random() * arr.length)];
-      $('#go').get(0).src = selectImg;
-    });
-    $("#i3").focus(function () {
-      var selectImg = arr[parseInt(Math.random() * arr.length)];
-      $('#go').get(0).src = selectImg;
-    });
+    // $("#i1").focus(function () {
+    //   var selectImg = arr[parseInt(Math.random() * arr.length)];
+    //   $('#go').get(0).src = selectImg;
+    // });
+    // $("#i2").focus(function () {
+    //   var selectImg = arr[parseInt(Math.random() * arr.length)];
+    //   $('#go').get(0).src = selectImg;
+    // });
+    // $("#i3").focus(function () {
+    //   var selectImg = arr[parseInt(Math.random() * arr.length)];
+    //   $('#go').get(0).src = selectImg;
+    // });
     $('#ggg').click(function () {
       console.log(122);
       var timer  = null;
@@ -95,10 +97,8 @@
             return;
       }
       console.log($('#i1').val());
-      timer = setInterval(function () {
-        $.fn.fullpage.moveNext(2);
-      }, 1000);
       // $('#go').get(0).src = selectImg;
+      $.fn.fullpage.moveNext(2);
     });
 
 
