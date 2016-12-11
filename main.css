@@ -6,7 +6,11 @@
     -o-transform: translate3d(0, 0, 0);
 }
 .ppp {
-  display: none;
+  /*display: none;*/
+  position: absolute;
+  z-index: 0;
+  width: 328px;
+  height: 328px;
 }
 .fullPage-wp:after {
     display: block;
