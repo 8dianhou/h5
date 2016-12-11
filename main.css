@@ -44,7 +44,7 @@ html, body {
 /** step1 **/
 
 .step1 {
-    background: url('images/1.png') no-repeat center;
+    background: url('./images/1.png') no-repeat center;
     background-size: cover;
 }
 
@@ -52,7 +52,7 @@ html, body {
     position: absolute;
     width: 3.9rem;
     height: 2rem;
-    background: url('1btn.png') no-repeat center;
+    background: url('./1btn.png') no-repeat center;
     top: 50%;
     left: 29%;
     /*transform: translateX(-50%);*/
@@ -65,7 +65,7 @@ html, body {
 .arrow {
   width: 6rem;
   height: 2.3;
-  background: url('1bg2.png') no-repeat center;
+  background: url('./1bg2.png') no-repeat center;
   position: absolute;
   top: 60%;
   z-index: 11;
@@ -78,7 +78,7 @@ html, body {
   height: 9.3rem;
   top: 17%;
   left: 10%;
-  background: url('title.png') no-repeat center;
+  background: url('./title.png') no-repeat center;
 }
 @keyframes zoomAnimation {
     0% {
@@ -124,19 +124,19 @@ html, body {
 /** step1 **/
 
 .step2 {
-    background: url('images/2.png') no-repeat center;
+    background: url('./images/2.png') no-repeat center;
     background-size: cover;
 }
 .page2-content {
   width: 10rem;
   height: 12.7rem;
-  background: url('2bg.png') no-repeat center;
+  background: url('./2bg.png') no-repeat center;
   background-size: cover;
   margin: 2rem auto;
   padding-top: 1px;
 }
 .p2-t {
-  background: url('inp-text.png') no-repeat center;
+  background: url('./inp-text.png') no-repeat center;
   width: 1.4rem;
   height: 0.8rem;
   margin: 1rem auto 0;
@@ -144,7 +144,7 @@ html, body {
 input {
   width: 5.5rem;
   height: 1.24rem;
-  background: url('ibg.png') no-repeat center;
+  background: url('./ibg.png') no-repeat center;
   background-size: 5.5rem;
   padding-left: 0.5rem;
   /*background-size: cover;*/
@@ -157,7 +157,7 @@ input {
   position: absolute;
   width: 3.5rem;
   height: 1.6rem;
-  background: url('p2btn.png') no-repeat center;
+  background: url('./p2btn.png') no-repeat center;
   background-size: cover;
   top: 67%;
   left: 34%;
