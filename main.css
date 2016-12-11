@@ -141,10 +141,10 @@ html, body {
 .page2-content {
   position: relative;
   width: 10rem;
-  height: 12.7rem;
-  background: url('./2bg.png') no-repeat center;
-  background-size: cover;
-  margin: 1rem auto;
+  height: 11.7rem;
+  background: url(./2bg.png) no-repeat center;
+  background-size: 10rem 11.7rem;
+  margin: 2rem auto;
   padding-top: 1px;
 }
 .p2-t {
@@ -172,7 +172,7 @@ input {
   height: 2.2rem;
   background: url('./p2btn.png') no-repeat center;
   background-size: 4.5rem;
-  top: 75%;
+  top: 70%;
   left: 30%;
   transform: rotate(6.7479deg) translateZ(0px);
   -webkit-transform: rotate(6.7479deg) translateZ(0px);
