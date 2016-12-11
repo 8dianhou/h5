@@ -26,13 +26,13 @@
     <div class="page page2 step2">
       <div class="page2-content">
         <h3 class="p2-t"></h3>
-        <input type="text" name="" placeholder="姓名"  value="">
-        <input type="text" name=""placeholder="职业"   value="">
-        <input type="text" name=""placeholder="出生年月"   value="">
+        <input type="text" id="i1" name="" placeholder="姓名"  value="">
+        <input type="text" id="i2"  name=""placeholder="职业"   value="">
+        <input type="text" id="i3"  name=""placeholder="出生年月"   value="">
         <a href="javascript:;" class="p2-btn" id="ggg"></a>
       </div>
     </div>
-    <div class="page page3">
+    <div class="page page3 step3">
       <img id="go" src="" alt="">
     </div>
 
@@ -72,9 +72,16 @@
     $('#ggg').click(function () {
       console.log(122);
       var selectImg = arr[parseInt(Math.random() * arr.length)];
-
+      // console.log($("#i1").value());
+      // console.log($("#i2").value());
+      // console.log($("#i3").value());
       console.log(selectImg);
-      console.log($('#go'));
+      if (!$("#i1").val() ||
+          !$("#i2").val() ||
+          !$("#i3").val() ) {
+            return;
+      }
+      console.log($('#i1').val());
 
       $('#go').get(0).src = selectImg;
       $.fn.fullpage.moveNext(2);
